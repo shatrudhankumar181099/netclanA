@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@color/black_shade_2"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/menu"
+        android:src="@drawable/baseline_menu_24"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Howdy Roller"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/menu"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/checklist"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/baseline_checklist_24"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
